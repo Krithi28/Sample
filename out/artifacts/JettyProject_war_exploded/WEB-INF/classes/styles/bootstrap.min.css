@@ -3557,8 +3557,8 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
 #logo {
     float: left;
-    margin-right: 10px;
-    margin-top: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
 }
 #logo {
     background-position: -87px 0;
@@ -3567,9 +3567,9 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
 #askjeeves {
 
-    margin-left: 260px;
+    margin-left: 460px;
     margin-right: auto;
-    margin-top: 180px;
+    margin-top: 480px;
 }
 
 .bubble {
