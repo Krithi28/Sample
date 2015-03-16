@@ -1,4 +1,5 @@
 import com.mongodb.*;
+import org.codehaus.plexus.util.StringUtils;
 
 import java.util.*;
 
@@ -14,7 +15,7 @@ public class ViewChangesetInfoModel {
         try {
 
             //Connect to MongoDB
-            Mongo mongo = new Mongo("10.0.77.70", 27017);
+            Mongo mongo = new Mongo("10.0.77.216", 27017);
 
             // Get database, if database doesn't exists, MongoDB will create it for you
             DB db = mongo.getDB("zentooldb");
@@ -37,17 +38,15 @@ public class ViewChangesetInfoModel {
             while (cursor.hasNext()) {
                 BasicDBObject dbObject = (BasicDBObject) cursor.next();
                 if (dbObject.getString("category").contains(other)) {
-                    // for (int i = 0; i < obj.size(); i++) {
                     elementslist.add(0, dbObject.getString("id"));
                     elementslist.add(1, (String) dbObject.get("category"));
                     elementslist.add(2, (String) dbObject.get("changeset"));
                     elementslist.add(3, (String) dbObject.get("ticket"));
                     elementslist.add(4, (String) dbObject.get("wiki-documentation"));
-                    if(dbObject.get("comments")==null || dbObject.get("comments")=="")
+                    if (dbObject.get("comments") == null || dbObject.get("comments") == "")
                         elementslist.add(5, "N/A");
                     else
                         elementslist.add(5, (String) dbObject.get("comments"));
-                    // }
                 }
                 System.out.println("Object:" + dbObject);
                 System.out.println("Id:" + dbObject.get("id"));

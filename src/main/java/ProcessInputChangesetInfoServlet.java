@@ -2,6 +2,8 @@
  * Created by 441691 on 2/13/2015.
  */
 
+import org.codehaus.plexus.util.StringUtils;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -39,7 +41,9 @@ public class ProcessInputChangesetInfoServlet extends HttpServlet {
 
             // passing values to java class
             ProcessInputChangesetModel retrival = new ProcessInputChangesetModel();
-            retrival.values(category, changeset, ticket, doc, comments);
+
+            if (StringUtils.isNotBlank(category) && StringUtils.isNotBlank(changeset) && StringUtils.isNotBlank(ticket) && StringUtils.isNotBlank(doc))
+                retrival.values(category, changeset, ticket, doc, comments);
 
             getServletConfig().getServletContext().getRequestDispatcher("/ViewChangesetInfo.jsp").forward(request, response);
 

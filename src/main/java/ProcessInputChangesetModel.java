@@ -14,7 +14,7 @@ public class ProcessInputChangesetModel {
         try {
 
             //Connect to MongoDB
-            Mongo mongo = new Mongo("10.0.77.70", 27017);
+            Mongo mongo = new Mongo("10.0.77.216", 27017);
 
             //Get database, if database doesn't exists, MongoDB will create it for you
             DB db = mongo.getDB("zentooldb");

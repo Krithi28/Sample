@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JettyProject.iml" filepath="$PROJECT_DIR$/JettyProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsonPrograms/jsonPrograms.iml" filepath="$PROJECT_DIR$/jsonPrograms/jsonPrograms.iml" />
     </modules>
   </component>
 </project>

@@ -1,3 +1,4 @@
+import org.codehaus.plexus.util.StringUtils;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -20,7 +21,8 @@ public class ViewChangesetInfoServlet extends HttpServlet {
         //request.getServletContext().getRequestDispatcher("/ViewChangesetInfo.jsp").forward(request,response);
         request.getRequestDispatcher("/ViewTable.jsp").include(request, response);
         ViewChangesetInfoModel view = new ViewChangesetInfoModel();
-        view.values(other);
+        if (StringUtils.isNotBlank(other))
+            view.values(other);
 
         PrintWriter out = response.getWriter();
 
@@ -39,16 +41,14 @@ public class ViewChangesetInfoServlet extends HttpServlet {
         out.println("<div class='container'>");
         out.println("<P ALIGN='center'><table class='table-striped table-bordered table-condensed'");
         out.print("<tr>" + "<th>" + "Id" + "</th>" + "<th>" + "Category" + "</th>" + "<th>" + "Changeset" + "</th>" + "<th>" + "Ticket" + "</th>" + "<th>" + "Wiki-documentation" + "</th>" + "<th>" + "Comments" + "</th>" + "</tr>");
-        int i=0;
+        int i = 0;
         out.print("<tr>");
-        while(i<view.elementslist.size())
-        {
+        while (i < view.elementslist.size()) {
             out.print("<td>" + view.elementslist.toArray()[i]);
             i++;
 
-            if(i%6==0)
-            {
-                out.print("</tr>"+"<tr>");
+            if (i % 6 == 0) {
+                out.print("</tr>" + "<tr>");
             }
 
         }

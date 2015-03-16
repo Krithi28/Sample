@@ -14,8 +14,7 @@
 <html>
 <head>
     <title> View Data Here </title>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="styles/bootstrapmin.css">
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/bootstrapmin.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/textbox.css">
@@ -24,34 +23,22 @@
             document.getElementById("other").value = data.value;
         }
     </script>
-    <style type="text/css">
-        .bs-example {
-            margin: 20px;
-        }
-    </style>
 </head>
 <body>
-<%--<div id="myDiv"></div>--%>
-<div class="bs-example">
-    <nav role="navigation" class="navbar navbar-default">
-        <!-- Brand and toggle get grouped for better mobile display -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-            </button>
-            </div>
-            <div id="logo">
-                <img src="images/ask-logo.png"/>
-            </div>
+            <a class="navbar-brand">
+                <img src="images/ask-logo.png" align="left" height="35" width="46">
+            </a>
             <a class="navbar-brand">Zen Tool</a>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.jsp"> Back </a></li>
-                <li><a href="index.jsp"> Home </a></li>
-            </ul>
         </div>
-    </nav>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.jsp"> Back </a></li>
+            <li><a href="index.jsp"> Home </a></li>
+        </ul>
+    </div>
+</nav>
 </div>
 <div class="panel panel-default">
     <div class="panel-body">View data content</div>
@@ -69,7 +56,7 @@
                         <%
                             ArrayList<String> result = new ArrayList<String>();
                             try {
-                                Mongo mongo = new Mongo("10.0.77.70", 27017);
+                                Mongo mongo = new Mongo("10.0.77.216", 27017);
                                 DB db = mongo.getDB("zentooldb");
                                 DBCollection table = db.getCollection("addcontent");
 
