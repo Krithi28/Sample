@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JettyProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JettyProject_war_exploded/WEB-INF/classes</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JettyProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JettyProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jetty-distribution-8.1.16" />
+          <element id="library" level="project" name="java-json" />
+          <element id="library" level="project" name="json-simple-1.1.1" />
+          <element id="library" level="project" name="json-20090211" />
+          <element id="library" level="project" name="com.mongodb-2.5.2" />
+          <element id="library" level="project" name="plexus-utils-1.5.7" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
