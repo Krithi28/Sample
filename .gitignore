@@ -1,4 +1,3 @@
 *.iml
-/public/static/**/*.idea
-out/artifacts/*
-out/production/*
+.idea/*
+out/*
