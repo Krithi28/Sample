@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="980efa14-5be9-42c4-a87c-5f0848b12591" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Sample\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\artifacts\JettyProject_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\artifacts\jsonPrograms_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\dictionaries\441691.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__com_google_code_gson_gson_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__commons_io_commons_io_2_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__de_bwaldvogel_mongo_java_server_1_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__io_netty_netty_buffer_4_0_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__io_netty_netty_codec_4_0_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__io_netty_netty_common_4_0_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__io_netty_netty_transport_4_0_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__net_sf_json_lib_json_lib_2_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_apache_maven_maven_plugin_api_2_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_apache_maven_plugins_maven_clean_plugin_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_codehaus_plexus_plexus_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_codehaus_plexus_plexus_3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_codehaus_plexus_plexus_interpolation_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_codehaus_plexus_plexus_utils_1_5_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_codehaus_plexus_plexus_utils_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_codehaus_plexus_plexus_utils_3_0_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_json_json_20131018.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_mongodb_mongo_java_driver_2_10_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_mortbay_jetty_jetty_maven_plugin_6_1_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\com_mongodb_2_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\java_json.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\jetty_distribution_8_1_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\json_20090211.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\json_simple_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\plexus_utils_1_5_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\servlet_api.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\libraries\servlet_api1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\webContexts.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sample\JettyProject.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-    </list>
+    <list default="true" id="980efa14-5be9-42c4-a87c-5f0848b12591" name="Default" comment="" />
     <ignored path="JettyProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1242,15 +1194,15 @@
       <workItem from="1426498357615" duration="1662000" />
       <workItem from="1426502275607" duration="1120000" />
       <workItem from="1426503559763" duration="1787000" />
-      <workItem from="1426506564891" duration="883000" />
+      <workItem from="1426506564891" duration="1022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="662878000" />
+    <option name="totallyTimeSpent" value="663017000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1366" height="728" extended-state="1" />
+    <frame x="1" y="0" width="1366" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12962963" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
