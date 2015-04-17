@@ -25,11 +25,7 @@ public class ProcessInputChangesetInfoServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        // Send response to Jsp page for Url Editing
-        // request.getRequestDispatcher("/WEB-INF/classes/ProcessInputChangesetInfo.jsp").forward(request, response);
-        //  request.getRequestDispatcher("/WEB-INF/classes/ViewChangesetInfo.jsp").forward(request, response);
-
-        try {
+         try {
 
             // getting input values
             response.setContentType("text/html;charset=UTF-8");

@@ -69,9 +69,6 @@
                                     result.add(obj.getString("category"));
                                 }
                         %>
-                        <%-- <%
-                             Object value = request.getAttribute("category");
-                         %>--%>
                         <c:forEach var="item" items="<%= result%>">
                             <option>${item}</option>
                         </c:forEach>

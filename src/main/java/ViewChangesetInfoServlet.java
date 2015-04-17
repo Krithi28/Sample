@@ -16,9 +16,6 @@ public class ViewChangesetInfoServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         String other = request.getParameter(OTHER);
-        //request.getRequestDispatcher("/template.jsp").include(request,response);
-        //request.getRequestDispatcher("styles/bootstrap.min.css").include(request,response);
-        //request.getServletContext().getRequestDispatcher("/ViewChangesetInfo.jsp").forward(request,response);
         request.getRequestDispatcher("/ViewTable.jsp").include(request, response);
         ViewChangesetInfoModel view = new ViewChangesetInfoModel();
         if (StringUtils.isNotBlank(other))
